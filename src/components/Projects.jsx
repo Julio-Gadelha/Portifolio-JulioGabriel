@@ -23,8 +23,8 @@ export default function Projects() {
       <div className="wrap">
         <div className="head">
           <div>
-            <span className="eyebrow">{"<projetos />"}</span>
-            <h2>Coisas que já construí</h2>
+            <span className="eyebrow">{"Projetos "}</span>
+            <h2>Projeto</h2>
             <p className="sub">Alguns dos meus projetos, do código ao navegador.</p>
           </div>
           <a className="pill ghost" href={PROFILE.github} target="_blank" rel="noreferrer">Ver todos no GitHub</a>
