@@ -77,8 +77,8 @@ export const TECH_GROUPS = [
       { name: "Java", highlight: true },
       { name: "Spring Boot", highlight: true },
       { name: "API ", highlight: true },
-      { name: "API REST", highlight: false },
-      { name: "POO", highlight: false },
+      { name: "API REST", highlight: true },
+      { name: "POO", highlight: true },
       { name: "JavaFX", highlight: false },
     ],
   },
@@ -87,9 +87,9 @@ export const TECH_GROUPS = [
     featured: false,
     items: [
       { name: "SQL", highlight: true },
-      { name: "MySql", highlight: false },
+      { name: "MySql", highlight: true },
       { name: "SQLite", highlight: false },
-      { name: "Modelagem relacional", highlight: false },
+      { name: "Modelagem relacional", highlight: true },
     ],
   },
   {
@@ -141,6 +141,11 @@ export const EDUCATION = [
     when: "2024 a 2025",
     title: "Formação Desenvolvimento Full Stack",
     meta: "Digital College — React, Node.js e bancos de dados",
+  },
+  {
+    when: "2026 ",
+    title: "Habilidades Interpessoais",
+    meta: "IREDE-Modulo Java",
   },
 ];
 
