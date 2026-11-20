@@ -90,6 +90,7 @@ export default function Projects() {
         <div className="head">
           <div>
             <span className="eyebrow">Projetos</span>
+            <h2>Projetos que resolvem problemas reais</h2>
             <p className="sub">
               Cada projeto reúne o problema resolvido, decisões técnicas e
               funcionalidades entregues.{" "}

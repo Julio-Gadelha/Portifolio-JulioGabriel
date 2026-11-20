@@ -23,14 +23,14 @@ export default function Header() {
           <a href="#home" onClick={closeMenu}>
             Início
           </a>
-          <a href="#sobre" onClick={closeMenu}>
-            Sobre mim
+          <a href="#projetos" onClick={closeMenu}>
+            Projetos
           </a>
           <a href="#tecnologias" onClick={closeMenu}>
             Tecnologias
           </a>
-          <a href="#projetos" onClick={closeMenu}>
-            Projetos
+          <a href="#sobre" onClick={closeMenu}>
+            Sobre mim 
           </a>
           <a href="#faq" onClick={closeMenu}>
             FAQ

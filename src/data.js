@@ -1,11 +1,13 @@
 export const PROFILE = {
   name: "Julio Gabriel",
   roleBadge: "Desenvolvedor Back-end Java",
-  headline: "Desenvolvendo soluções e construindo minha jornada no mundo da tecnologia.",
-  lead: "Desenvolvendo soluções eficientes, API e persistência de dados utilizando Java. Focado em boas práticas, organização de código e entrega de valor real.",
+  headline: "Sistemas em Java que organizam dados e simplificam processos.",
+  lead: "Construo APIs e aplicações com Java e Spring Boot, com código organizado e fácil de manter, para que a equipe possa evoluir.",
   heroTags: ["Java", "JavaScript", "Spring Boot", "SQL", "API"],
   city: "Fortaleza, CE",
   email: "juliogabrieldev7@gmail.com",
+  whatsapp: "5585999021201",
+  whatsappMessage: "Olá, Gabriel! Vi seu portfólio e gostaria de conversar.",
   github: "https://github.com/Julio-Gadelha",
   linkedin: "https://www.linkedin.com/in/juliogabrieldev14/",
 };
@@ -16,11 +18,11 @@ export const MARQUEE = [
   "API",
   "SQL",
   "Git & GitHub",
-  "JavaScript"
+  "JavaScript",
 ];
 
 export const PROJECTS = [
-{
+  {
     title: "FinTrack — Sistema de gerenciamento financeiro",
     cover: "projects/Fintrack.png",
     coverAlt:
@@ -57,7 +59,7 @@ export const PROJECTS = [
     ],
     results:
       "Consolidação de domínio orientado a objetos limpo e desacoplado, eliminando duplicação de regras de negócio entre diferentes tipos de itens do acervo.",
-    tags: ["Java", "POO", "Collections",],
+    tags: ["Java", "POO", "Collections"],
     repo: "https://github.com/Julio-Gadelha/SistemaGerenciamentoBiblioteca.git",
   },
 ];
@@ -71,31 +73,41 @@ export const TECH_GROUPS = [
   {
     category: "Back-end",
     featured: true,
-    description: "Construção de regras de negócio, APIs e aplicações orientadas a objetos.",
-    items: [
+        items: [
       { name: "Java", highlight: true },
       { name: "Spring Boot", highlight: true },
+      { name: "API ", highlight: true },
+      { name: "API REST", highlight: false },
       { name: "POO", highlight: false },
+      { name: "JavaFX", highlight: false },
     ],
   },
   {
     category: "Banco de dados",
     featured: false,
-    description: "Modelagem relacional, consultas estruturadas e persistência de dados.",
     items: [
       { name: "SQL", highlight: true },
+      { name: "MySql", highlight: false },
       { name: "SQLite", highlight: false },
+      { name: "Modelagem relacional", highlight: false },
     ],
   },
   {
-    category: "Ferramentas & Dev",
+    category: "Front-end",
     featured: false,
-    description: "Versionamento de código, gerenciamento de dependências e integração.",
     items: [
-      { name: "APIs", highlight: true },
-      { name: "Git", highlight: true },
-      { name: "GitHub", highlight: true },
-      { name: "Maven", highlight: false },
+      { name: "JavaScript", highlight: false },
+      { name: "React", highlight: false },
+      { name: "HTML", highlight: false },
+      { name: "CSS", highlight: false },
+    ],
+  },
+  {
+    category: "Ferramentas e nuvem",
+    featured: false,
+    items: [
+      { name: "Git", highlight: false },
+      { name: "GitHub", highlight: false },
     ],
   },
 ];

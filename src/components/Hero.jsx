@@ -22,9 +22,10 @@ export default function Hero() {
         </ul>
 
         <div className="actions">
+          <a className="pill" href="#projetos">Ver projetos</a>
           <a
             className="pill ghost"
-            href={`${base}curriculo-julio-gabriel.pdf`}
+            href={`${base}Gabriel-Curriculo.pdf`}
             target="_blank"
             rel="noreferrer"
           >

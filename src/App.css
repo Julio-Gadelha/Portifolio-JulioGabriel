@@ -976,20 +976,21 @@ details p {
 }
 
 .contact-cards {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: flex;
   gap: 16px;
   margin-top: 24px;
+  flex-wrap: wrap;
 }
 
 .cta a.contact-primary {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  border-radius: 16px;
-  padding: 18px 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: var(--lime-ink);
   color: #f1f3ea;
+  padding: 11px 22px;
+  border-radius: 999px;
+  font-weight: 500;
 }
 
 .cta a.contact-primary strong {

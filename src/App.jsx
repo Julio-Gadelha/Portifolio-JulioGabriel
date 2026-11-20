@@ -1,7 +1,6 @@
 import { PROFILE } from "./data";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Marquee from "./components/Marquee";
 import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
@@ -15,10 +14,9 @@ export default function App() {
       <Header />
       <main id="home">
         <Hero />
-        <Marquee />
-        <About />
-        <Technologies />
         <Projects />
+        <Technologies />
+        <About />
         <Faq />
         <Contact />
       </main>
