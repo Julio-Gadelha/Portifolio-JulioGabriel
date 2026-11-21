@@ -515,8 +515,8 @@ h2 {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
-  align-items: start;
+  gap: 20px;
+  align-items: stretch;
 }
 
 .card {
@@ -539,7 +539,7 @@ h2 {
 
 .thumb,
 .project-card .thumb {
-  height: 200px;
+  height: 150px;
   overflow: hidden;
   display: grid;
   place-items: center;
@@ -562,23 +562,23 @@ h2 {
 }
 
 .card .body {
-  padding: 24px;
+  padding: 18px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   flex: 1;
 }
 
 .card h3 {
-  font-size: 1.3rem;
+  font-size: 1.05rem;
   line-height: 1.25;
 }
 
 .card p {
   margin: 0;
   color: var(--muted);
-  font-size: 0.95rem;
-  line-height: 1.55;
+  font-size: 0.85rem;
+  line-height: 1.45;
   flex: 1;
 }
 
@@ -586,8 +586,8 @@ h2 {
   margin-top: 3px !important;
   color: var(--ink) !important;
   opacity: 0.9;
-  font-size: 0.95rem !important;
-  line-height: 1.55 !important;
+  font-size: 0.85rem !important;
+  line-height: 1.45 !important;
 }
 
 .tags {
@@ -601,9 +601,9 @@ h2 {
 
 .tags li {
   font:
-    400 0.75rem "Geist Mono",
+    400 0.7rem "Geist Mono",
     monospace;
-  padding: 3px 9px;
+  padding: 2px 8px;
   border: 1px solid var(--line);
   border-radius: 999px;
   color: var(--muted);
@@ -611,10 +611,10 @@ h2 {
 
 .links {
   display: flex;
-  gap: 18px;
+  gap: 14px;
   margin-top: 2px;
   flex-wrap: wrap;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .links a {
@@ -625,8 +625,8 @@ h2 {
 
 .project-case {
   display: grid;
-  gap: 12px;
-  padding: 14px 16px;
+  gap: 8px;
+  padding: 10px 12px;
   border-radius: 8px;
   background: var(--bg);
   border: 1px solid var(--line);
@@ -640,7 +640,7 @@ h2 {
 
 .case-label {
   font:
-    500 0.72rem "Geist Mono",
+    500 0.66rem "Geist Mono",
     monospace;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -648,22 +648,22 @@ h2 {
 }
 
 .case-block p {
-  font-size: 0.9rem !important;
-  line-height: 1.5;
+  font-size: 0.8rem !important;
+  line-height: 1.4;
 }
 
 .feature-list {
   margin: 2px 0 0;
-  padding-left: 18px;
+  padding-left: 16px;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   display: grid;
-  gap: 4px;
+  gap: 3px;
   line-height: 1.32;
 }
 
 .case-result {
-  padding: 12px 14px;
+  padding: 9px 11px;
   border-left: 2px solid var(--lime);
   background: color-mix(in srgb, var(--lime) 7%, var(--bg));
   border-radius: 0 7px 7px 0;
@@ -675,9 +675,9 @@ h2 {
   border: 1px solid var(--line);
   color: var(--ink);
   font:
-    500 0.8rem "Geist Mono",
+    500 0.75rem "Geist Mono",
     monospace;
-  padding: 6px 13px;
+  padding: 5px 11px;
   border-radius: 999px;
   cursor: pointer;
   transition:
@@ -692,11 +692,11 @@ h2 {
 
 .project-footer {
   margin-top: auto;
-  padding-top: 14px;
+  padding-top: 10px;
   border-top: 1px solid var(--line);
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
 }
 
 /* SOBRE */
