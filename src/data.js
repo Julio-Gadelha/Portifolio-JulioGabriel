@@ -106,8 +106,8 @@ export const TECH_GROUPS = [
     category: "Ferramentas e nuvem",
     featured: false,
     items: [
-      { name: "Git", highlight: false },
-      { name: "GitHub", highlight: false },
+      { name: "Git", highlight: true },
+      { name: "GitHub", highlight: true },
     ],
   },
 ];
