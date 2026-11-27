@@ -25,7 +25,7 @@ export default function Hero() {
           <a className="pill" href="#projetos">Ver projetos</a>
           <a
             className="pill ghost"
-            href={`${base}Gabriel-Curriculo.pdf`}
+            href={`${base}CurriculoJG.pdf`}
             target="_blank"
             rel="noreferrer"
           >
